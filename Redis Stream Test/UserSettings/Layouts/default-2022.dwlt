@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 47
+  controlID: 100
   draggingID: 0
 --- !u!114 &3
 MonoBehaviour:
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 17
+  controlID: 20
   draggingID: 0
 --- !u!114 &11
 MonoBehaviour:
@@ -324,7 +324,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Editor
+    - Assets
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -332,16 +332,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Editor
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /home/sam/Desktop/Github/CSNode/Redis Stream Test
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e6060000
-    m_LastClickedID: 1766
-    m_ExpandedIDs: 000000000e06000000ca9a3bffffff7f
+    m_SelectedIDs: 885a0000
+    m_LastClickedID: 23176
+    m_ExpandedIDs: 00000000885a000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -369,7 +369,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000000e060000
+    m_ExpandedIDs: 00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -509,9 +509,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: e0560000
+      m_SelectedIDs: ba5a0000
       m_LastClickedID: 0
-      m_ExpandedIDs: e028ffff
+      m_ExpandedIDs: 30fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -915,11 +915,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.07038292, y: 0.7297881, z: -0.0760076, w: -0.67578495}
     speed: 2
-    m_Value: {x: -0.07038292, y: 0.72978806, z: -0.0760076, w: -0.67578495}
+    m_Value: {x: -0.07038268, y: 0.7297856, z: -0.07600734, w: -0.6757826}
   m_Size:
     m_Target: 0.9886382
     speed: 2
-    m_Value: 0.9460653
+    m_Value: 0.9886382
   m_Ortho:
     m_Target: 0
     speed: 2
