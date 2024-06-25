@@ -153,8 +153,7 @@
         145,
         146,
         147,
-        148,
-        149
+        148
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 0
@@ -280,29 +279,17 @@
       "DebugActionIndex": 10
     },
     {
-      "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/sharedassets0.assets.resS",
-      "DisplayName": "Copying sharedassets0.assets.resS",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/PlayerDataCache/Linux64/Data/sharedassets0.assets.resS"
-      ],
-      "Outputs": [
-        "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/sharedassets0.assets.resS"
-      ],
-      "DebugActionIndex": 11
-    },
-    {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/boot.config_16d3.info",
       "DisplayName": "Writing boot.config_16d3.info",
       "ActionType": "WriteFile",
       "PayloadOffset": 83,
-      "PayloadLength": 16049,
+      "PayloadLength": 16096,
       "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/boot.config_16d3.info"
       ],
-      "DebugActionIndex": 12
+      "DebugActionIndex": 11
     },
     {
       "Annotation": "AddBootConfigGUID Library/Bee/artifacts/LinuxPlayerBuildProgram/boot.config",
@@ -321,7 +308,6 @@
         "Library/PlayerDataCache/Linux64/Data/resources.assets",
         "Library/PlayerDataCache/Linux64/Data/resources.assets.resS",
         "Library/PlayerDataCache/Linux64/Data/sharedassets0.assets",
-        "Library/PlayerDataCache/Linux64/Data/sharedassets0.assets.resS",
         "/home/sam/Unity/Hub/Editor/2022.3.32f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.AIModule.dll",
         "/home/sam/Unity/Hub/Editor/2022.3.32f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.AccessibilityModule.dll",
         "/home/sam/Unity/Hub/Editor/2022.3.32f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.AndroidJNIModule.dll",
@@ -388,22 +374,22 @@
         "/home/sam/Unity/Hub/Editor/2022.3.32f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.WindModule.dll",
         "/home/sam/Unity/Hub/Editor/2022.3.32f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll",
         "/home/sam/Unity/Hub/Editor/2022.3.32f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.dll",
-        "/home/sam/Unity Projects/Redis Stream Test/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll",
-        "/home/sam/Unity Projects/Redis Stream Test/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll",
-        "/home/sam/Unity Projects/Redis Stream Test/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
-        "/home/sam/Unity Projects/Redis Stream Test/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
-        "/home/sam/Unity Projects/Redis Stream Test/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll",
-        "/home/sam/Unity Projects/Redis Stream Test/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll",
-        "/home/sam/Unity Projects/Redis Stream Test/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll",
-        "/home/sam/Unity Projects/Redis Stream Test/Assets/Packages/Pipelines.Sockets.Unofficial.2.2.8/lib/netstandard2.1/Pipelines.Sockets.Unofficial.dll",
-        "/home/sam/Unity Projects/Redis Stream Test/Assets/Packages/Microsoft.Extensions.Logging.Abstractions.6.0.0/lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
-        "/home/sam/Unity Projects/Redis Stream Test/Assets/Packages/Newtonsoft.Json.13.0.3/lib/netstandard2.0/Newtonsoft.Json.dll",
-        "/home/sam/Unity Projects/Redis Stream Test/Assets/Packages/Microsoft.Bcl.AsyncInterfaces.5.0.0/lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
-        "/home/sam/Unity Projects/Redis Stream Test/Assets/Packages/StackExchange.Redis.2.7.33/lib/netstandard2.0/StackExchange.Redis.dll",
-        "/home/sam/Unity Projects/Redis Stream Test/Assets/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0/lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
-        "/home/sam/Unity Projects/Redis Stream Test/Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
-        "/home/sam/Unity Projects/Redis Stream Test/Assets/Packages/System.Threading.Channels.5.0.0/lib/netstandard2.1/System.Threading.Channels.dll",
-        "/home/sam/Unity Projects/Redis Stream Test/Assets/Packages/System.IO.Pipelines.5.0.1/lib/netstandard2.0/System.IO.Pipelines.dll",
+        "/home/sam/Desktop/Github/CSNode/Redis Stream Test/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll",
+        "/home/sam/Desktop/Github/CSNode/Redis Stream Test/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll",
+        "/home/sam/Desktop/Github/CSNode/Redis Stream Test/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
+        "/home/sam/Desktop/Github/CSNode/Redis Stream Test/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
+        "/home/sam/Desktop/Github/CSNode/Redis Stream Test/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll",
+        "/home/sam/Desktop/Github/CSNode/Redis Stream Test/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll",
+        "/home/sam/Desktop/Github/CSNode/Redis Stream Test/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll",
+        "/home/sam/Desktop/Github/CSNode/Redis Stream Test/Assets/Packages/Pipelines.Sockets.Unofficial.2.2.8/lib/netstandard2.1/Pipelines.Sockets.Unofficial.dll",
+        "/home/sam/Desktop/Github/CSNode/Redis Stream Test/Assets/Packages/Microsoft.Extensions.Logging.Abstractions.6.0.0/lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "/home/sam/Desktop/Github/CSNode/Redis Stream Test/Assets/Packages/Newtonsoft.Json.13.0.3/lib/netstandard2.0/Newtonsoft.Json.dll",
+        "/home/sam/Desktop/Github/CSNode/Redis Stream Test/Assets/Packages/Microsoft.Bcl.AsyncInterfaces.5.0.0/lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
+        "/home/sam/Desktop/Github/CSNode/Redis Stream Test/Assets/Packages/StackExchange.Redis.2.7.33/lib/netstandard2.0/StackExchange.Redis.dll",
+        "/home/sam/Desktop/Github/CSNode/Redis Stream Test/Assets/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0/lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "/home/sam/Desktop/Github/CSNode/Redis Stream Test/Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
+        "/home/sam/Desktop/Github/CSNode/Redis Stream Test/Assets/Packages/System.Threading.Channels.5.0.0/lib/netstandard2.1/System.Threading.Channels.dll",
+        "/home/sam/Desktop/Github/CSNode/Redis Stream Test/Assets/Packages/System.IO.Pipelines.5.0.1/lib/netstandard2.0/System.IO.Pipelines.dll",
         "/home/sam/Unity/Hub/Editor/2022.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/Facades/System.Buffers.dll",
         "/home/sam/Unity/Hub/Editor/2022.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/Facades/System.Memory.dll",
         "/home/sam/Unity/Hub/Editor/2022.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/Facades/System.Threading.Tasks.Extensions.dll",
@@ -476,12 +462,12 @@
         "Library/Bee/artifacts/LinuxPlayerBuildProgram/boot.config"
       ],
       "ToBuildDependencies": [
-        12
+        11
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 13
+      "DebugActionIndex": 12
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/boot.config",
@@ -494,9 +480,9 @@
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/boot.config"
       ],
       "ToBuildDependencies": [
-        13
+        12
       ],
-      "DebugActionIndex": 14
+      "DebugActionIndex": 13
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.AIModule.dll",
@@ -508,7 +494,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.AIModule.dll"
       ],
-      "DebugActionIndex": 15
+      "DebugActionIndex": 14
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.AccessibilityModule.dll",
@@ -520,7 +506,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.AccessibilityModule.dll"
       ],
-      "DebugActionIndex": 16
+      "DebugActionIndex": 15
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.AndroidJNIModule.dll",
@@ -532,7 +518,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.AndroidJNIModule.dll"
       ],
-      "DebugActionIndex": 17
+      "DebugActionIndex": 16
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.AnimationModule.dll",
@@ -544,7 +530,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.AnimationModule.dll"
       ],
-      "DebugActionIndex": 18
+      "DebugActionIndex": 17
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.AssetBundleModule.dll",
@@ -556,7 +542,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.AssetBundleModule.dll"
       ],
-      "DebugActionIndex": 19
+      "DebugActionIndex": 18
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.AudioModule.dll",
@@ -568,7 +554,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.AudioModule.dll"
       ],
-      "DebugActionIndex": 20
+      "DebugActionIndex": 19
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.ClothModule.dll",
@@ -580,7 +566,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.ClothModule.dll"
       ],
-      "DebugActionIndex": 21
+      "DebugActionIndex": 20
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.ClusterInputModule.dll",
@@ -592,7 +578,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.ClusterInputModule.dll"
       ],
-      "DebugActionIndex": 22
+      "DebugActionIndex": 21
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.ClusterRendererModule.dll",
@@ -604,7 +590,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.ClusterRendererModule.dll"
       ],
-      "DebugActionIndex": 23
+      "DebugActionIndex": 22
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.ContentLoadModule.dll",
@@ -616,7 +602,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.ContentLoadModule.dll"
       ],
-      "DebugActionIndex": 24
+      "DebugActionIndex": 23
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.CoreModule.dll",
@@ -628,7 +614,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.CoreModule.dll"
       ],
-      "DebugActionIndex": 25
+      "DebugActionIndex": 24
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.CrashReportingModule.dll",
@@ -640,7 +626,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.CrashReportingModule.dll"
       ],
-      "DebugActionIndex": 26
+      "DebugActionIndex": 25
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.DSPGraphModule.dll",
@@ -652,7 +638,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.DSPGraphModule.dll"
       ],
-      "DebugActionIndex": 27
+      "DebugActionIndex": 26
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.DirectorModule.dll",
@@ -664,7 +650,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.DirectorModule.dll"
       ],
-      "DebugActionIndex": 28
+      "DebugActionIndex": 27
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.GIModule.dll",
@@ -676,7 +662,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.GIModule.dll"
       ],
-      "DebugActionIndex": 29
+      "DebugActionIndex": 28
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.GameCenterModule.dll",
@@ -688,7 +674,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.GameCenterModule.dll"
       ],
-      "DebugActionIndex": 30
+      "DebugActionIndex": 29
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.GridModule.dll",
@@ -700,7 +686,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.GridModule.dll"
       ],
-      "DebugActionIndex": 31
+      "DebugActionIndex": 30
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.HotReloadModule.dll",
@@ -712,7 +698,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.HotReloadModule.dll"
       ],
-      "DebugActionIndex": 32
+      "DebugActionIndex": 31
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.IMGUIModule.dll",
@@ -724,7 +710,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.IMGUIModule.dll"
       ],
-      "DebugActionIndex": 33
+      "DebugActionIndex": 32
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.ImageConversionModule.dll",
@@ -736,7 +722,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.ImageConversionModule.dll"
       ],
-      "DebugActionIndex": 34
+      "DebugActionIndex": 33
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.InputLegacyModule.dll",
@@ -748,7 +734,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.InputLegacyModule.dll"
       ],
-      "DebugActionIndex": 35
+      "DebugActionIndex": 34
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.InputModule.dll",
@@ -760,7 +746,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.InputModule.dll"
       ],
-      "DebugActionIndex": 36
+      "DebugActionIndex": 35
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.JSONSerializeModule.dll",
@@ -772,7 +758,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.JSONSerializeModule.dll"
       ],
-      "DebugActionIndex": 37
+      "DebugActionIndex": 36
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.LocalizationModule.dll",
@@ -784,7 +770,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.LocalizationModule.dll"
       ],
-      "DebugActionIndex": 38
+      "DebugActionIndex": 37
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.ParticleSystemModule.dll",
@@ -796,7 +782,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.ParticleSystemModule.dll"
       ],
-      "DebugActionIndex": 39
+      "DebugActionIndex": 38
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.PerformanceReportingModule.dll",
@@ -808,7 +794,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.PerformanceReportingModule.dll"
       ],
-      "DebugActionIndex": 40
+      "DebugActionIndex": 39
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.Physics2DModule.dll",
@@ -820,7 +806,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.Physics2DModule.dll"
       ],
-      "DebugActionIndex": 41
+      "DebugActionIndex": 40
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.PhysicsModule.dll",
@@ -832,7 +818,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.PhysicsModule.dll"
       ],
-      "DebugActionIndex": 42
+      "DebugActionIndex": 41
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.ProfilerModule.dll",
@@ -844,7 +830,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.ProfilerModule.dll"
       ],
-      "DebugActionIndex": 43
+      "DebugActionIndex": 42
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.PropertiesModule.dll",
@@ -856,7 +842,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.PropertiesModule.dll"
       ],
-      "DebugActionIndex": 44
+      "DebugActionIndex": 43
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
@@ -868,7 +854,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
       ],
-      "DebugActionIndex": 45
+      "DebugActionIndex": 44
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.ScreenCaptureModule.dll",
@@ -880,7 +866,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.ScreenCaptureModule.dll"
       ],
-      "DebugActionIndex": 46
+      "DebugActionIndex": 45
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.SharedInternalsModule.dll",
@@ -892,7 +878,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.SharedInternalsModule.dll"
       ],
-      "DebugActionIndex": 47
+      "DebugActionIndex": 46
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.SpriteMaskModule.dll",
@@ -904,7 +890,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.SpriteMaskModule.dll"
       ],
-      "DebugActionIndex": 48
+      "DebugActionIndex": 47
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.SpriteShapeModule.dll",
@@ -916,7 +902,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.SpriteShapeModule.dll"
       ],
-      "DebugActionIndex": 49
+      "DebugActionIndex": 48
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.StreamingModule.dll",
@@ -928,7 +914,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.StreamingModule.dll"
       ],
-      "DebugActionIndex": 50
+      "DebugActionIndex": 49
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.SubstanceModule.dll",
@@ -940,7 +926,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.SubstanceModule.dll"
       ],
-      "DebugActionIndex": 51
+      "DebugActionIndex": 50
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.SubsystemsModule.dll",
@@ -952,7 +938,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.SubsystemsModule.dll"
       ],
-      "DebugActionIndex": 52
+      "DebugActionIndex": 51
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.TLSModule.dll",
@@ -964,7 +950,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.TLSModule.dll"
       ],
-      "DebugActionIndex": 53
+      "DebugActionIndex": 52
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.TerrainModule.dll",
@@ -976,7 +962,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.TerrainModule.dll"
       ],
-      "DebugActionIndex": 54
+      "DebugActionIndex": 53
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
@@ -988,7 +974,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.TerrainPhysicsModule.dll"
       ],
-      "DebugActionIndex": 55
+      "DebugActionIndex": 54
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll",
@@ -1000,7 +986,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll"
       ],
-      "DebugActionIndex": 56
+      "DebugActionIndex": 55
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll",
@@ -1012,7 +998,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll"
       ],
-      "DebugActionIndex": 57
+      "DebugActionIndex": 56
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.TextRenderingModule.dll",
@@ -1024,7 +1010,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.TextRenderingModule.dll"
       ],
-      "DebugActionIndex": 58
+      "DebugActionIndex": 57
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.TilemapModule.dll",
@@ -1036,7 +1022,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.TilemapModule.dll"
       ],
-      "DebugActionIndex": 59
+      "DebugActionIndex": 58
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.UIElementsModule.dll",
@@ -1048,7 +1034,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.UIElementsModule.dll"
       ],
-      "DebugActionIndex": 60
+      "DebugActionIndex": 59
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.UIModule.dll",
@@ -1060,7 +1046,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.UIModule.dll"
       ],
-      "DebugActionIndex": 61
+      "DebugActionIndex": 60
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.UmbraModule.dll",
@@ -1072,7 +1058,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.UmbraModule.dll"
       ],
-      "DebugActionIndex": 62
+      "DebugActionIndex": 61
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll",
@@ -1084,7 +1070,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll"
       ],
-      "DebugActionIndex": 63
+      "DebugActionIndex": 62
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
@@ -1096,7 +1082,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.UnityAnalyticsModule.dll"
       ],
-      "DebugActionIndex": 64
+      "DebugActionIndex": 63
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.UnityConnectModule.dll",
@@ -1108,7 +1094,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.UnityConnectModule.dll"
       ],
-      "DebugActionIndex": 65
+      "DebugActionIndex": 64
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.UnityCurlModule.dll",
@@ -1120,7 +1106,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.UnityCurlModule.dll"
       ],
-      "DebugActionIndex": 66
+      "DebugActionIndex": 65
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.UnityTestProtocolModule.dll",
@@ -1132,7 +1118,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.UnityTestProtocolModule.dll"
       ],
-      "DebugActionIndex": 67
+      "DebugActionIndex": 66
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
@@ -1144,7 +1130,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll"
       ],
-      "DebugActionIndex": 68
+      "DebugActionIndex": 67
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
@@ -1156,7 +1142,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll"
       ],
-      "DebugActionIndex": 69
+      "DebugActionIndex": 68
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.UnityWebRequestModule.dll",
@@ -1168,7 +1154,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.UnityWebRequestModule.dll"
       ],
-      "DebugActionIndex": 70
+      "DebugActionIndex": 69
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
@@ -1180,7 +1166,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll"
       ],
-      "DebugActionIndex": 71
+      "DebugActionIndex": 70
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
@@ -1192,7 +1178,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll"
       ],
-      "DebugActionIndex": 72
+      "DebugActionIndex": 71
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.VFXModule.dll",
@@ -1204,7 +1190,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.VFXModule.dll"
       ],
-      "DebugActionIndex": 73
+      "DebugActionIndex": 72
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.VRModule.dll",
@@ -1216,7 +1202,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.VRModule.dll"
       ],
-      "DebugActionIndex": 74
+      "DebugActionIndex": 73
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.VehiclesModule.dll",
@@ -1228,7 +1214,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.VehiclesModule.dll"
       ],
-      "DebugActionIndex": 75
+      "DebugActionIndex": 74
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.VideoModule.dll",
@@ -1240,7 +1226,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.VideoModule.dll"
       ],
-      "DebugActionIndex": 76
+      "DebugActionIndex": 75
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.VirtualTexturingModule.dll",
@@ -1252,7 +1238,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.VirtualTexturingModule.dll"
       ],
-      "DebugActionIndex": 77
+      "DebugActionIndex": 76
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.WindModule.dll",
@@ -1264,7 +1250,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.WindModule.dll"
       ],
-      "DebugActionIndex": 78
+      "DebugActionIndex": 77
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.XRModule.dll",
@@ -1276,7 +1262,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.XRModule.dll"
       ],
-      "DebugActionIndex": 79
+      "DebugActionIndex": 78
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.dll",
@@ -1288,199 +1274,199 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.dll"
       ],
-      "DebugActionIndex": 80
+      "DebugActionIndex": 79
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/Assembly-CSharp.dll",
       "DisplayName": "Copying Assembly-CSharp.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "/home/sam/Unity Projects/Redis Stream Test/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll"
+        "/home/sam/Desktop/Github/CSNode/Redis Stream Test/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll"
       ],
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/Assembly-CSharp.dll"
       ],
-      "DebugActionIndex": 81
+      "DebugActionIndex": 80
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/Unity.Timeline.dll",
       "DisplayName": "Copying Unity.Timeline.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "/home/sam/Unity Projects/Redis Stream Test/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll"
+        "/home/sam/Desktop/Github/CSNode/Redis Stream Test/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll"
       ],
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/Unity.Timeline.dll"
       ],
-      "DebugActionIndex": 82
+      "DebugActionIndex": 81
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.UI.dll",
       "DisplayName": "Copying UnityEngine.UI.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "/home/sam/Unity Projects/Redis Stream Test/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll"
+        "/home/sam/Desktop/Github/CSNode/Redis Stream Test/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll"
       ],
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/UnityEngine.UI.dll"
       ],
-      "DebugActionIndex": 83
+      "DebugActionIndex": 82
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/Unity.TextMeshPro.dll",
       "DisplayName": "Copying Unity.TextMeshPro.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "/home/sam/Unity Projects/Redis Stream Test/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll"
+        "/home/sam/Desktop/Github/CSNode/Redis Stream Test/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll"
       ],
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/Unity.TextMeshPro.dll"
       ],
-      "DebugActionIndex": 84
+      "DebugActionIndex": 83
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/Unity.VisualScripting.Core.dll",
       "DisplayName": "Copying Unity.VisualScripting.Core.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "/home/sam/Unity Projects/Redis Stream Test/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll"
+        "/home/sam/Desktop/Github/CSNode/Redis Stream Test/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll"
       ],
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/Unity.VisualScripting.Core.dll"
       ],
-      "DebugActionIndex": 85
+      "DebugActionIndex": 84
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/Unity.VisualScripting.State.dll",
       "DisplayName": "Copying Unity.VisualScripting.State.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "/home/sam/Unity Projects/Redis Stream Test/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll"
+        "/home/sam/Desktop/Github/CSNode/Redis Stream Test/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll"
       ],
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/Unity.VisualScripting.State.dll"
       ],
-      "DebugActionIndex": 86
+      "DebugActionIndex": 85
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/Unity.VisualScripting.Flow.dll",
       "DisplayName": "Copying Unity.VisualScripting.Flow.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "/home/sam/Unity Projects/Redis Stream Test/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll"
+        "/home/sam/Desktop/Github/CSNode/Redis Stream Test/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll"
       ],
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/Unity.VisualScripting.Flow.dll"
       ],
-      "DebugActionIndex": 87
+      "DebugActionIndex": 86
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/Pipelines.Sockets.Unofficial.dll",
       "DisplayName": "Copying Pipelines.Sockets.Unofficial.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "/home/sam/Unity Projects/Redis Stream Test/Assets/Packages/Pipelines.Sockets.Unofficial.2.2.8/lib/netstandard2.1/Pipelines.Sockets.Unofficial.dll"
+        "/home/sam/Desktop/Github/CSNode/Redis Stream Test/Assets/Packages/Pipelines.Sockets.Unofficial.2.2.8/lib/netstandard2.1/Pipelines.Sockets.Unofficial.dll"
       ],
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/Pipelines.Sockets.Unofficial.dll"
       ],
-      "DebugActionIndex": 88
+      "DebugActionIndex": 87
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/Microsoft.Extensions.Logging.Abstractions.dll",
       "DisplayName": "Copying Microsoft.Extensions.Logging.Abstractions.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "/home/sam/Unity Projects/Redis Stream Test/Assets/Packages/Microsoft.Extensions.Logging.Abstractions.6.0.0/lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll"
+        "/home/sam/Desktop/Github/CSNode/Redis Stream Test/Assets/Packages/Microsoft.Extensions.Logging.Abstractions.6.0.0/lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll"
       ],
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/Microsoft.Extensions.Logging.Abstractions.dll"
       ],
-      "DebugActionIndex": 89
+      "DebugActionIndex": 88
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/Newtonsoft.Json.dll",
       "DisplayName": "Copying Newtonsoft.Json.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "/home/sam/Unity Projects/Redis Stream Test/Assets/Packages/Newtonsoft.Json.13.0.3/lib/netstandard2.0/Newtonsoft.Json.dll"
+        "/home/sam/Desktop/Github/CSNode/Redis Stream Test/Assets/Packages/Newtonsoft.Json.13.0.3/lib/netstandard2.0/Newtonsoft.Json.dll"
       ],
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/Newtonsoft.Json.dll"
       ],
-      "DebugActionIndex": 90
+      "DebugActionIndex": 89
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/Microsoft.Bcl.AsyncInterfaces.dll",
       "DisplayName": "Copying Microsoft.Bcl.AsyncInterfaces.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "/home/sam/Unity Projects/Redis Stream Test/Assets/Packages/Microsoft.Bcl.AsyncInterfaces.5.0.0/lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll"
+        "/home/sam/Desktop/Github/CSNode/Redis Stream Test/Assets/Packages/Microsoft.Bcl.AsyncInterfaces.5.0.0/lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll"
       ],
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/Microsoft.Bcl.AsyncInterfaces.dll"
       ],
-      "DebugActionIndex": 91
+      "DebugActionIndex": 90
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/StackExchange.Redis.dll",
       "DisplayName": "Copying StackExchange.Redis.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "/home/sam/Unity Projects/Redis Stream Test/Assets/Packages/StackExchange.Redis.2.7.33/lib/netstandard2.0/StackExchange.Redis.dll"
+        "/home/sam/Desktop/Github/CSNode/Redis Stream Test/Assets/Packages/StackExchange.Redis.2.7.33/lib/netstandard2.0/StackExchange.Redis.dll"
       ],
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/StackExchange.Redis.dll"
       ],
-      "DebugActionIndex": 92
+      "DebugActionIndex": 91
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/System.Runtime.CompilerServices.Unsafe.dll",
       "DisplayName": "Copying System.Runtime.CompilerServices.Unsafe.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "/home/sam/Unity Projects/Redis Stream Test/Assets/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0/lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll"
+        "/home/sam/Desktop/Github/CSNode/Redis Stream Test/Assets/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0/lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll"
       ],
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/System.Runtime.CompilerServices.Unsafe.dll"
       ],
-      "DebugActionIndex": 93
+      "DebugActionIndex": 92
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll",
       "DisplayName": "Copying Unity.VisualScripting.Antlr3.Runtime.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "/home/sam/Unity Projects/Redis Stream Test/Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+        "/home/sam/Desktop/Github/CSNode/Redis Stream Test/Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
       ],
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll"
       ],
-      "DebugActionIndex": 94
+      "DebugActionIndex": 93
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/System.Threading.Channels.dll",
       "DisplayName": "Copying System.Threading.Channels.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "/home/sam/Unity Projects/Redis Stream Test/Assets/Packages/System.Threading.Channels.5.0.0/lib/netstandard2.1/System.Threading.Channels.dll"
+        "/home/sam/Desktop/Github/CSNode/Redis Stream Test/Assets/Packages/System.Threading.Channels.5.0.0/lib/netstandard2.1/System.Threading.Channels.dll"
       ],
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/System.Threading.Channels.dll"
       ],
-      "DebugActionIndex": 95
+      "DebugActionIndex": 94
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/System.IO.Pipelines.dll",
       "DisplayName": "Copying System.IO.Pipelines.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "/home/sam/Unity Projects/Redis Stream Test/Assets/Packages/System.IO.Pipelines.5.0.1/lib/netstandard2.0/System.IO.Pipelines.dll"
+        "/home/sam/Desktop/Github/CSNode/Redis Stream Test/Assets/Packages/System.IO.Pipelines.5.0.1/lib/netstandard2.0/System.IO.Pipelines.dll"
       ],
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/System.IO.Pipelines.dll"
       ],
-      "DebugActionIndex": 96
+      "DebugActionIndex": 95
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/System.Buffers.dll",
@@ -1492,7 +1478,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/System.Buffers.dll"
       ],
-      "DebugActionIndex": 97
+      "DebugActionIndex": 96
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/System.Memory.dll",
@@ -1504,7 +1490,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/System.Memory.dll"
       ],
-      "DebugActionIndex": 98
+      "DebugActionIndex": 97
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/System.Threading.Tasks.Extensions.dll",
@@ -1516,7 +1502,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/System.Threading.Tasks.Extensions.dll"
       ],
-      "DebugActionIndex": 99
+      "DebugActionIndex": 98
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/netstandard.dll",
@@ -1528,7 +1514,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/netstandard.dll"
       ],
-      "DebugActionIndex": 100
+      "DebugActionIndex": 99
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/Mono.Security.dll",
@@ -1540,7 +1526,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/Mono.Security.dll"
       ],
-      "DebugActionIndex": 101
+      "DebugActionIndex": 100
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/System.ComponentModel.Composition.dll",
@@ -1552,7 +1538,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/System.ComponentModel.Composition.dll"
       ],
-      "DebugActionIndex": 102
+      "DebugActionIndex": 101
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/System.Configuration.dll",
@@ -1564,7 +1550,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/System.Configuration.dll"
       ],
-      "DebugActionIndex": 103
+      "DebugActionIndex": 102
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/System.Core.dll",
@@ -1576,7 +1562,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/System.Core.dll"
       ],
-      "DebugActionIndex": 104
+      "DebugActionIndex": 103
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/System.Data.DataSetExtensions.dll",
@@ -1588,7 +1574,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/System.Data.DataSetExtensions.dll"
       ],
-      "DebugActionIndex": 105
+      "DebugActionIndex": 104
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/System.Data.dll",
@@ -1600,7 +1586,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/System.Data.dll"
       ],
-      "DebugActionIndex": 106
+      "DebugActionIndex": 105
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/System.Drawing.dll",
@@ -1612,7 +1598,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/System.Drawing.dll"
       ],
-      "DebugActionIndex": 107
+      "DebugActionIndex": 106
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/System.EnterpriseServices.dll",
@@ -1624,7 +1610,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/System.EnterpriseServices.dll"
       ],
-      "DebugActionIndex": 108
+      "DebugActionIndex": 107
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/System.IO.Compression.FileSystem.dll",
@@ -1636,7 +1622,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/System.IO.Compression.FileSystem.dll"
       ],
-      "DebugActionIndex": 109
+      "DebugActionIndex": 108
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/System.IO.Compression.dll",
@@ -1648,7 +1634,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/System.IO.Compression.dll"
       ],
-      "DebugActionIndex": 110
+      "DebugActionIndex": 109
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/System.Net.Http.dll",
@@ -1660,7 +1646,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/System.Net.Http.dll"
       ],
-      "DebugActionIndex": 111
+      "DebugActionIndex": 110
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/System.Numerics.dll",
@@ -1672,7 +1658,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/System.Numerics.dll"
       ],
-      "DebugActionIndex": 112
+      "DebugActionIndex": 111
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/System.Runtime.Serialization.dll",
@@ -1684,7 +1670,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/System.Runtime.Serialization.dll"
       ],
-      "DebugActionIndex": 113
+      "DebugActionIndex": 112
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/System.Security.dll",
@@ -1696,7 +1682,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/System.Security.dll"
       ],
-      "DebugActionIndex": 114
+      "DebugActionIndex": 113
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/System.ServiceModel.Internals.dll",
@@ -1708,7 +1694,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/System.ServiceModel.Internals.dll"
       ],
-      "DebugActionIndex": 115
+      "DebugActionIndex": 114
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/System.Transactions.dll",
@@ -1720,7 +1706,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/System.Transactions.dll"
       ],
-      "DebugActionIndex": 116
+      "DebugActionIndex": 115
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/System.Xml.Linq.dll",
@@ -1732,7 +1718,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/System.Xml.Linq.dll"
       ],
-      "DebugActionIndex": 117
+      "DebugActionIndex": 116
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/System.Xml.dll",
@@ -1744,7 +1730,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/System.Xml.dll"
       ],
-      "DebugActionIndex": 118
+      "DebugActionIndex": 117
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/System.dll",
@@ -1756,7 +1742,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/System.dll"
       ],
-      "DebugActionIndex": 119
+      "DebugActionIndex": 118
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/mscorlib.dll",
@@ -1768,20 +1754,20 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Managed/mscorlib.dll"
       ],
-      "DebugActionIndex": 120
+      "DebugActionIndex": 119
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/LinuxPlayerBuildProgram/Data/app.info",
       "DisplayName": "Writing app.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 16223,
+      "PayloadOffset": 16270,
       "PayloadLength": 32,
       "PayloadDebugContentSnippet": "DefaultCompany\nRedis Stream Te",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/LinuxPlayerBuildProgram/Data/app.info"
       ],
-      "DebugActionIndex": 121
+      "DebugActionIndex": 120
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/UnityPlayer.so",
@@ -1793,7 +1779,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/UnityPlayer.so"
       ],
-      "DebugActionIndex": 122
+      "DebugActionIndex": 121
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode.bin",
@@ -1805,7 +1791,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode.bin"
       ],
-      "DebugActionIndex": 123
+      "DebugActionIndex": 122
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Resources/unity default resources",
@@ -1817,7 +1803,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Resources/unity default resources"
       ],
-      "DebugActionIndex": 124
+      "DebugActionIndex": 123
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/MonoBleedingEdge/etc/config",
@@ -1829,7 +1815,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/MonoBleedingEdge/etc/config"
       ],
-      "DebugActionIndex": 125
+      "DebugActionIndex": 124
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
@@ -1841,7 +1827,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 126
+      "DebugActionIndex": 125
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
@@ -1853,7 +1839,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 127
+      "DebugActionIndex": 126
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/MonoBleedingEdge/etc/mono/2.0/machine.config",
@@ -1865,7 +1851,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/MonoBleedingEdge/etc/mono/2.0/machine.config"
       ],
-      "DebugActionIndex": 128
+      "DebugActionIndex": 127
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/MonoBleedingEdge/etc/mono/2.0/settings.map",
@@ -1877,7 +1863,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/MonoBleedingEdge/etc/mono/2.0/settings.map"
       ],
-      "DebugActionIndex": 129
+      "DebugActionIndex": 128
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/MonoBleedingEdge/etc/mono/2.0/web.config",
@@ -1889,7 +1875,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/MonoBleedingEdge/etc/mono/2.0/web.config"
       ],
-      "DebugActionIndex": 130
+      "DebugActionIndex": 129
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
@@ -1901,7 +1887,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 131
+      "DebugActionIndex": 130
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
@@ -1913,7 +1899,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 132
+      "DebugActionIndex": 131
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/MonoBleedingEdge/etc/mono/4.0/machine.config",
@@ -1925,7 +1911,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/MonoBleedingEdge/etc/mono/4.0/machine.config"
       ],
-      "DebugActionIndex": 133
+      "DebugActionIndex": 132
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/MonoBleedingEdge/etc/mono/4.0/settings.map",
@@ -1937,7 +1923,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/MonoBleedingEdge/etc/mono/4.0/settings.map"
       ],
-      "DebugActionIndex": 134
+      "DebugActionIndex": 133
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/MonoBleedingEdge/etc/mono/4.0/web.config",
@@ -1949,7 +1935,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/MonoBleedingEdge/etc/mono/4.0/web.config"
       ],
-      "DebugActionIndex": 135
+      "DebugActionIndex": 134
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
@@ -1961,7 +1947,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 136
+      "DebugActionIndex": 135
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
@@ -1973,7 +1959,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 137
+      "DebugActionIndex": 136
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/MonoBleedingEdge/etc/mono/4.5/machine.config",
@@ -1985,7 +1971,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/MonoBleedingEdge/etc/mono/4.5/machine.config"
       ],
-      "DebugActionIndex": 138
+      "DebugActionIndex": 137
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/MonoBleedingEdge/etc/mono/4.5/settings.map",
@@ -1997,7 +1983,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/MonoBleedingEdge/etc/mono/4.5/settings.map"
       ],
-      "DebugActionIndex": 139
+      "DebugActionIndex": 138
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/MonoBleedingEdge/etc/mono/4.5/web.config",
@@ -2009,7 +1995,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/MonoBleedingEdge/etc/mono/4.5/web.config"
       ],
-      "DebugActionIndex": 140
+      "DebugActionIndex": 139
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/MonoBleedingEdge/etc/mono/browscap.ini",
@@ -2021,7 +2007,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/MonoBleedingEdge/etc/mono/browscap.ini"
       ],
-      "DebugActionIndex": 141
+      "DebugActionIndex": 140
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/MonoBleedingEdge/etc/mono/config",
@@ -2033,7 +2019,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/MonoBleedingEdge/etc/mono/config"
       ],
-      "DebugActionIndex": 142
+      "DebugActionIndex": 141
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml",
@@ -2045,7 +2031,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml"
       ],
-      "DebugActionIndex": 143
+      "DebugActionIndex": 142
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so",
@@ -2057,7 +2043,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so"
       ],
-      "DebugActionIndex": 144
+      "DebugActionIndex": 143
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/MonoBleedingEdge/x86_64/libmono-native.so",
@@ -2069,7 +2055,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/MonoBleedingEdge/x86_64/libmono-native.so"
       ],
-      "DebugActionIndex": 145
+      "DebugActionIndex": 144
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so",
@@ -2081,7 +2067,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so"
       ],
-      "DebugActionIndex": 146
+      "DebugActionIndex": 145
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/app.info",
@@ -2094,9 +2080,9 @@
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/app.info"
       ],
       "ToBuildDependencies": [
-        121
+        120
       ],
-      "DebugActionIndex": 147
+      "DebugActionIndex": 146
     },
     {
       "Annotation": "CopyFiles /home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Resources/UnityPlayer.png",
@@ -2108,7 +2094,7 @@
       "Outputs": [
         "/home/sam/projects/brand-modules/redis-test/nodes/CSNode/CSNode_Data/Resources/UnityPlayer.png"
       ],
-      "DebugActionIndex": 148
+      "DebugActionIndex": 147
     },
     {
       "Annotation": "Player",
@@ -2126,7 +2112,7 @@
         8,
         9,
         10,
-        11,
+        13,
         14,
         15,
         16,
@@ -2233,7 +2219,7 @@
         117,
         118,
         119,
-        120,
+        121,
         122,
         123,
         124,
@@ -2259,11 +2245,10 @@
         144,
         145,
         146,
-        147,
-        148
+        147
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 149
+      "DebugActionIndex": 148
     }
   ],
   "FileSignatures": [
@@ -2455,7 +2440,7 @@
   "EmitDataForBeeWhy": 0,
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 149
+          "Player": 148
         }
 ,  "DefaultNodes": [
     0
@@ -2463,6 +2448,6 @@
   "SharedResources": [],
   "Scanners": [],
   "Identifier": "Library/Bee/Player57185a47.dag.json",
-  "PayloadsFile": "/home/sam/Unity Projects/Redis Stream Test/Library/Bee/Player57185a47.dag.payloads",
+  "PayloadsFile": "/home/sam/Desktop/Github/CSNode/Redis Stream Test/Library/Bee/Player57185a47.dag.payloads",
   "RelativePathToRoot": "../.."
 }

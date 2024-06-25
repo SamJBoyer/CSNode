@@ -370,12 +370,9 @@
 -analyzer:"Assets/Packages/Microsoft.Extensions.Logging.Abstractions.6.0.0/analyzers/dotnet/roslyn4.0/cs/zh-Hans/Microsoft.Extensions.Logging.Generators.resources.dll"
 -analyzer:"Assets/Packages/Microsoft.Extensions.Logging.Abstractions.6.0.0/analyzers/dotnet/roslyn4.0/cs/zh-Hant/Microsoft.Extensions.Logging.Generators.resources.dll"
 "Assets/ApplicationManager.cs"
-"Assets/BasicTesting.cs"
-"Assets/BrandTools.cs"
 "Assets/CSNode.cs"
 "Assets/Hardpoint.cs"
 "Assets/Mover.cs"
-"Assets/RedisChannel.cs"
 "Assets/Test.cs"
 "Assets/UnityAdapter.cs"
 -langversion:9.0
